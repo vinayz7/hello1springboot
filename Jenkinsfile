@@ -6,7 +6,7 @@ pipeline {
    stages {
        stage('Clone Repository') {
            steps {
-               git url: 'https://github.com/vinayz7/hello1springboot', branch: 'master'
+               git url: 'https://github.com/vinayz7/hello1springboot', branch: 'main'
            }
        }
      stage('build mvn for jar') {
