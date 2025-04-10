@@ -1,7 +1,7 @@
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:11-jdk-slim
 
-# Set the working directory in the container
+# Set the working directory in the Container
 WORKDIR /app
 
 # Copy the project's JAR file into the container
